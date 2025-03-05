@@ -1,0 +1,42 @@
+.calc_btn {
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    color: black;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+
+    margin-bottom: 5px;
+    margin-right: 5px;
+}
+
+.calc_btn:hover {
+    background-color: lightgrey;
+}
+
+.buttons_row {
+    display: flex;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number_input {
+    width: 310px;
+    height: 100px;
+    background-color: deepskyblue;
+    margin-right: 5px;
+    font-size: 40px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+
+
+}
