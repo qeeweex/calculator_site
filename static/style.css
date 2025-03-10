@@ -20,6 +20,15 @@
 
 .buttons_row {
     display: flex;
+    box-shadow: 5px 5px 5px black;
+    transition: 1.5s;
+}
+
+.buttons_row:hover {
+    display: flex;
+    box-shadow: 5px 5px 5px black;
+    transform: scale(1.1);
+    background-color: black;
 }
 
 body {
@@ -29,7 +38,7 @@ body {
 }
 
 .number_input {
-    width: 310px;
+    width: 415px;
     height: 100px;
     background-color: deepskyblue;
     margin-right: 5px;
